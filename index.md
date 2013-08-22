@@ -12,6 +12,12 @@ tagline:
 - lead: zerd_liu
 - core member: 
 
+### Process
+
+1. fork
+2. branch
+3. pull request
+
 ### Tech
 #### Operation Log Caculating
 
