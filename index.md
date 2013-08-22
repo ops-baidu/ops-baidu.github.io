@@ -5,15 +5,15 @@ tagline:
 ---
 {% include JB/setup %}
 
-## Operation Data Processing
+# Operation Data Processing
 
 运维数据处理。为服务运维提供实时数据查询，计算，监控。
 
-### lead: 
+## Lead: 
 
 - Zerd Liu ([@zerd_liu](http://github.com/zerdliu))
 
-### core member: 
+## Core member: 
 
 - Yong Li ([@liyong19850209](http://github.com/liyong19850209))
 - Xiao Li ([@swordsmanli](http://github.com/swordsmanli))
@@ -22,7 +22,7 @@ tagline:
 - Weimin Zhang ([@lovemeng](http://github.com/lovemeng))
 - Fengzhao Guo ([@rock-op](http://github.com/rock-op))
 
-### Development Process
+## Development Process
 
 1. Fork 
 
@@ -47,9 +47,29 @@ tagline:
 		git commit -m "commit issue"
 		git push
 
+1. Merge & Handle Conflicts
+
+		git remote add upstream https://github.com/ops-baidu/project.git
+		git fetch upstream
+		git merge upstream/master
+		git commit
+		git push
+
 1. Pull Request
 
    在github上发起[pull request](https://help.github.com/articles/creating-a-pull-request)
+
+1. Rebase
+   使origin的master和upstream的master同步
+
+		git checkout master
+		git fetch upstream
+		git rebase upstream/master
+		git push
+
+1. Redo the Process
+
+You can find [difference](http://stackoverflow.com/questions/9257533/what-is-the-difference-between-origin-and-upstream-in-github) between "origin" and "upstream"
 
 ### Tech
 #### Operation Log Caculating
