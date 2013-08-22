@@ -20,6 +20,14 @@ description: ""
 
 * rpm或者sbt编译的方式得到标准环境
 
+> sbt编译，需要编译机器可以访问外网
+>
+> cd /home/work/kafka
+>
+> ./sbt update
+>
+> ./sbt package
+
 * 解压缩到kafka目录下
 
 * 修改配置文件config/server.properties，按照如下方式修改配置项
