@@ -8,6 +8,7 @@ description: ""
 
 ###kafka的官方网站
 * [http://kafka.apache.org/](http://kafka.apache.org/)
+* [https://github.com/apache/kafka](https://github.com/apache/kafka)
 
 ###kafka的依赖
 
