@@ -15,11 +15,13 @@ description: ""
 
 ###borker的安装
 
-* 1 获取标准环境
+* kafka目前有0.7和0.8两个版本，项目中使用的是0.7版本的kafka
 
-* 2 解压缩到kafka目录下
+* rpm或者sbt编译的方式得到标准环境
 
-* 3 修改配置文件config/server.properties，按照如下方式修改配置项
+* 解压缩到kafka目录下
+
+* 修改配置文件config/server.properties，按照如下方式修改配置项
 
 > brokerid = 整数，每个broker需要使用不同的id数值，可以采用该机器的nodes的group值
 >
