@@ -5,6 +5,10 @@ description: ""
 ---
 {% include JB/setup %}
 #kafka的安装方法
+
+###kafka的官方网站
+* [http://kafka.apache.org/](http://kafka.apache.org/)
+
 ###kafka的依赖
 
 * 需要依赖jdk 1.6以上版本
