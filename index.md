@@ -16,7 +16,6 @@ tagline:
 
 1. fork
 2. branch
-3. pull request
 
 ### Tech
 #### Operation Log Caculating
