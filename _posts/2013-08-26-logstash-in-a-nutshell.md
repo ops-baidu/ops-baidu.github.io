@@ -28,34 +28,25 @@ tags: [logstash log]
 
 1. 编写配置文件
 
-    #配置文件编写[参考](http://logstash.net/docs/1.1.13/configuration)
-    #hello.conf
+- 配置文件编写[参考](http://logstash.net/docs/1.1.13/configuration)
+
     input {
-      # 从标准输入采集数据
       stdin { 
-        # A type is a label applied to an event. It is used later with filters
-        # to restrict what filters are run against each event.
         type => "human"
       } 
     }
     
-    # 省略了filer,即不过滤
-
     output {
-      # 将采集到的数据送到标准输出
-      # Print each event to stdout.
       stdout {
-        # Enabling 'debug' on the stdout output will make logstash pretty-print the
-        # entire event as something similar to a JSON representation.
         debug => true
       }
     }
 
 1. 启动logstash
     
-    #命令行参数[参考](http://logstash.net/docs/1.1.13/flags)
     java -jar logstash-1.1.13-flatjar.jar agent -f hello.conf
-    # 启动后，可尝试在标准输入输入一些字符，看一下效果。
+- 启动后，可尝试在标准输入输入一些字符，看一下效果。
+- 命令行参数[参考](http://logstash.net/docs/1.1.13/flags)
 
 
 # [最佳实践](http://cleversoft.wordpress.com/2013/04/05/887/)
