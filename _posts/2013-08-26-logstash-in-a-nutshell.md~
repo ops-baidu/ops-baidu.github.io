@@ -48,7 +48,7 @@ tags: [logstash log]
 ``
 1. 启动logstash
     
-    ``java -jar logstash-1.1.13-flatjar.jar agent -f hello.conf``
+    java -jar logstash-1.1.13-flatjar.jar agent -f hello.conf
 - 启动后，可尝试在标准输入输入一些字符，看一下效果。
 - 命令行参数[参考](http://logstash.net/docs/1.1.13/flags)
 
