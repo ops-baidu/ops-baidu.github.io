@@ -49,3 +49,7 @@ description: ""
 
 * stop方式
 > kill 进程id
+
+* borker启动的依赖
+> broker启动后会在zookeeper上注册自己的id,在zookeeper的web界面roshan上可以看到当前运行的broker列表
+> 项目中每个topic使用了一个parttion（分区）,在roshan上可以看到不同的topic在broker上的分布情况
