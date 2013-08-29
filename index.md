@@ -75,14 +75,14 @@ You can find [difference](http://stackoverflow.com/questions/9257533/what-is-the
 #### Operation Log Caculating
 
 - [fluentd]()
-- [kafka]()
+- [kafka](/tech/kafka/)
 - [storm](/tech/storm/)
 - [mongoDB]()
 
 #### Service Log Searching
 
-- [logstash]()
 - [ElasticSearch](/tech/es/)
+- [logstash](/tech/logstash/)
 
 #### Service Monitoring
 
