@@ -15,14 +15,14 @@ tagline:
 ### Tech
 #### Operation Log Caculating
 
-- [fluentd]()
+- [fluentd](/tech/fluentd/)
 - [kafka]()
 - [storm](/tech/storm/)
 - [mongoDB]()
 
 #### Service Log Searching
 
-- [logstash]()
+- [logstash](/tech/logstash/index.html)
 - [ElasticSearch]()
 
 #### Service Monitoring
