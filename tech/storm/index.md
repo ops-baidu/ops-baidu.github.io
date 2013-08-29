@@ -108,3 +108,5 @@ description: "storm development document"
 #the end
 
 #Part Three
+1. reading storm source
+- [how to read storm source code from top2down](/tech/storm/top_to_bottom_read_source_code)
