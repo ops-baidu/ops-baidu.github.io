@@ -74,7 +74,7 @@ You can find [difference](http://stackoverflow.com/questions/9257533/what-is-the
 ### Tech
 #### Operation Log Caculating
 
-- [fluentd]()
+- [fluentd](/tech/fluentd/)
 - [kafka](/tech/kafka/)
 - [storm](/tech/storm/)
 - [mongoDB]()
